@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>B'ANONIK - Aprende el idioma Maya</title>
+  <style>
+    /* Estilo general */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+    }
+
+    /* Encabezado */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #1e1e2f;
+      padding: 15px 30px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    header .logo img {
+      width: 50px;
+      margin-right: 10px;
+    }
+
+    header nav a {
+      color: #00ffcc;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    header nav a:hover {
+      color: #ffd700;
+    }
+
+    /* Presentación */
+    .presentacion {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .video-container {
+      margin-top: 20px;
+    }
+
+    .video-container iframe {
+      width: 80%;
+      max-width: 700px;
+      border: 3px solid #ffd700;
+      border-radius: 10px;
+    }
+
+    /* Lecciones */
+    .lecciones {
+      background: #16222a;
+      padding: 40px;
+      text-align: center;
+    }
+
+    .lecciones .botones button {
+      background: #00ffcc;
+      border: none;
+      margin: 10px;
+      padding: 15px 25px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.3s;
+      color: #000;
+    }
+
+    .lecciones .botones button:hover {
+      background: #ffd700;
+      color: #000;
+    }
+
+    /* Cultura */
+    .cultura {
+      padding: 40px;
+      background: #1e3c72;
+      text-align: center;
+      line-height: 1.8;
+    }
+
+    /* Galería */
+    .galeria {
+      padding: 40px;
+      text-align: center;
+    }
+
+    .galeria .imagenes {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .galeria img {
+      width: 250px;
+      margin: 10px;
+      border-radius: 10px;
+      border: 3px solid #00ffcc;
+      transition: 0.3s;
+    }
+
+    .galeria img:hover {
+      transform: scale(1.05);
+      border-color: #ffd700;
+    }
+
+    /* Contacto */
+    footer {
+      background: #0f2027;
+      text-align: center;
+      padding: 30px;
+    }
+
+    footer .redes a {
+      margin: 0 15px;
+      color: #00ffcc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer .redes a:hover {
+      color: #ffd700;
+    }
+  </style>
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <div class="logo">
+      <!-- Logo en SVG -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="50" height="50">
+        <circle cx="100" cy="100" r="90" fill="#203a43" stroke="#00ffcc" stroke-width="6"/>
+        <path d="M100 30 L130 100 L100 170 L70 100 Z" fill="#ffd700" stroke="#00ffcc" stroke-width="4"/>
+        <text x="100" y="110" text-anchor="middle" font-size="28" font-family="Arial Black" fill="#00ffcc">B'</text>
+      </svg>
+      <h1>B'ANONIK</h1>
+    </div>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#lecciones">Lecciones</a>
+      <a href="#cultura">Cultura</a>
+      <a href="#galeria">Galería</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- Presentación -->
+  <section id="inicio" class="presentacion">
+    <h2>Bienvenido a B'ANONIK</h2>
+    <p>Descubre la manera más innovadora de aprender el idioma maya y sumérgete 
+        en una experiencia que une tradición y tecnología. B’ANONIK no es solo 
+        una aplicación, es un viaje hacia nuestras raíces, un puente entre la 
+        sabiduría ancestral y las herramientas del presente. Aquí aprenderás 
+        Kaqchikel de forma interactiva, dinámica y accesible, con lecciones 
+        diseñadas para que conectes con la cultura maya y valores la riqueza de
+         Guatemala. Con cada palabra aprenderás también historia, identidad y 
+         orgullo cultural. <strong>B’ANONIK: Aprende, conecta y honra nuestras raíces</strong>.</p>
+    <div class="video-container">
+      <iframe width="560" height="315" src="imagenes/WhatsApp Video 2025-07-23 at 6.59.39 AM (1).mp4" 
+        title="Video de presentación" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <!-- Lecciones -->
+  <section id="lecciones" class="lecciones">
+    <h2>Lecciones Interactivas</h2>
+    <div class="botones">
+      <button>Pronombres</button>
+      <button>Saludos</button>
+      <button>Colores</button>
+      <button>Números</button>
+      <button>Frases Diarias</button>
+    </div>
+  </section>
+
+  <!-- Cultura -->
+  <section id="cultura" class="cultura">
+    <h2>Cultura Maya y Guatemala</h2>
+    <p>
+      El Kaqchikel no es solo un idioma, es la voz de una civilización milenaria 
+      que aún late en el corazón de Guatemala. Cada palabra encierra historia, 
+      sabiduría y la cosmovisión de un pueblo que ha sabido mantener vivas sus 
+      raíces frente al paso del tiempo.
+      <strong>B'ANONIK</strong> no solo aprenderás un idioma, aprenderás a mirar 
+      el mundo desde la perspectiva de nuestros ancestros, a reconocer la grandeza 
+      de la cultura maya y a conectarte con una identidad que trasciende fronteras.
+      Este proyecto combina la tradición ancestral con las herramientas de la 
+      tecnología moderna, creando un puente entre el pasado y el futuro. Aprender 
+      Kaqchikel es más que estudiar vocabulario: es honrar la memoria de quienes 
+      nos precedieron y asegurar que las nuevas generaciones mantengan encendida la 
+      llama de nuestra herencia cultural.
+    </p>
+  </section>
+
+  <!-- Galería -->
+  <section id="galeria" class="galeria">
+    <h2>Galería</h2>
+    <div class="imagenes">
+      <img src="imagenes/WhatsApp Image 2025-09-19 at 9.26.57 PM.jpeg" alt="Cultura Maya">
+      <img src="imagenes/WhatsApp Image 2025-09-19 at 9.26.59 PM (1).jpeg" alt="Templo Maya">
+      <img src="imagenes/WhatsApp Image 2025-09-19 at 9.26.59 PM.jpeg" alt="Paisaje de Guatemala">
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <footer id="contacto">
+    <h2>Conéctate con nosotros</h2>
+    <p>Síguenos en nuestras redes sociales:</p>
+    <div class="redes">
+      <a href="https://www.instagram.com/banonik_gt?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">📷 Instagram</a>
+    </div>
+    <p>© 2025 B'ANONIK - Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
